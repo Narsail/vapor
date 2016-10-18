@@ -42,7 +42,7 @@ let package = Package(
         .Package(url: "https://github.com/vapor/fluent.git", majorVersion: 1),
 
         // Core vapor transport layer
-        .Package(url: "https://github.com/narsail/engine.git", majorVersion: 1),
+        .Package(url: "https://github.com/narsail/engine.git"),
 
         // Console protocol and implementation for powering command line interface.
         .Package(url: "https://github.com/vapor/console.git", majorVersion: 1),
